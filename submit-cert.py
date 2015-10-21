@@ -11,7 +11,10 @@ LOGS = {
 	'rocketeer' : "http://ct.googleapis.com/rocketeer",
 	"digicert" : "http://ct1.digicert-ct.com/log",
 	"izenpen" :"http://ct.izenpe.com",
-	"certly" : "http://log.certly.io"
+	"certly" : "http://log.certly.io",
+	"symantec" : "http://ct.ws.symantec.com",
+	"venafi" : "http://ctlog.api.venafi.com",
+	"wosign" : "http://ct.wosign.com"
 }
 
 parser = argparse.ArgumentParser(description='Submit a certificate to logs')
