@@ -19,7 +19,7 @@ LOGS = {
 parser = argparse.ArgumentParser(description='Write a SCT')
 parser.add_argument("--out", type=argparse.FileType('w'), help="file to write out to")
 parser.add_argument("--stdout", action="store_true", help="write to stdout, to be used in echo \"...\" | base64 -d > file")
-parser.add_argument("--log", choices=['aviator', 'pilot', 'rocketeer', 'certly', 'digicert', 'izenpen'], required=True)
+parser.add_argument("--log", choices=['aviator', 'pilot', 'rocketeer', 'certly', 'digicert', 'izenpen', 'symantec', 'venafi', 'wogisn'], required=True)
 parser.add_argument("--time", "--timestamp", type=int, required=True, help="Timestamp from the JSON response.")
 parser.add_argument("--sig", type=str, required=True, help="Signature value from the JSON response, base64 encoded")
 
